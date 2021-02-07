@@ -1,0 +1,10 @@
+.orange {
+  background-color: #ffa500;
+  color: black;
+  font-weight: 600;
+}
+
+.logoBall {
+  border-radius: 50%;
+  box-shadow: 5px 10px black;
+}
