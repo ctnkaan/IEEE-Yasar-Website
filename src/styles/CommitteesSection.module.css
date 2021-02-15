@@ -1,0 +1,33 @@
+.logoBall {
+  border-radius: 50%;
+  object-fit: contain;
+}
+.logoBorderAnim {
+  border-radius: 50%;
+  animation: loadUp 2s linear;
+  border: 5px solid;
+}
+@keyframes loadUp {
+  0% {
+    border-color: transparent;
+  }
+  25% {
+    border-top-color: black;
+  }
+  50% {
+    border-top-color: black;
+    border-right-color: black;
+  }
+  75% {
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+  }
+  100% {
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+  }
+}
+
