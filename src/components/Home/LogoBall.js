@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "../../styles/CommitteesSection.module.css";
 
-function LogoBall({ logo, alt }) {
+function LogoBall({ logo, alt, animationType }) {
   return (
     <div
-      className="wow animate__animated animate__fadeInDown"
+      className={`wow animate__animated animate__${animationType}`}
       data-wow-delay="0.3s"
     >
       <div className={classes.logoBorderAnim}>
