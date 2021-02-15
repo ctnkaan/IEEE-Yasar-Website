@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navbar, Nav, NavDropdown} from "react-bootstrap";
 
-function NavbarComp() {
+function Features() {
 	return (
         <section id="features" class="pt-5">
         <div class="container">
