@@ -1,0 +1,27 @@
+#title .text-center{
+    text-align: center!important;
+
+}
+#title h3{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 40px;
+margin-bottom: .5rem;
+}
+#title p{
+font-family: "Droid Serif";
+font-size: 20px;
+font-style: italic;
+color: #777;
+margin-bottom: 70px;
+margin-top: 0;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+#title{
+padding: 100px 0px;
+}
