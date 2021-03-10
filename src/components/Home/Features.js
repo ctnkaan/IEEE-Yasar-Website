@@ -4,7 +4,7 @@ import "../../styles/FeaturesSection.css";
 function Features() {
   return (
     <section id="features" className="pt-5">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row mt-5 mr-10">
           <div className="col-md-4 text-center  border-right pt-4">
             <div className="feature ">

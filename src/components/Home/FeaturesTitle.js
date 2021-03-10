@@ -4,7 +4,7 @@ import "../../styles/FeaturesTitle.css";
 function FeaturesTitle() {
   return (
     <section id="title">
-      <div className="container">
+      <div className="container-fluid">
         <div
           className="title-top text-center"
           style={{ visibility: "visible" }}
