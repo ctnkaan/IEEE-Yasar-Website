@@ -19,14 +19,14 @@ function LogoTree() {
 
   return (
     <Container fluid>
-      <Row className="justify-content-center mt-md-5">
+      <Row className="justify-content-center mt-md-5 mt-5">
         <Logoball logo={Logo} alt="ieee yasar" animationType="fadeInDown" />
       </Row>
       <Row className="justify-content-center mt-md-5">
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center mt-5">
           <Logoball logo={LogoCS} alt="cs" animationType="rotateInDownLeft" />
         </Col>
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center mt-5">
           <Logoball
             logo={LogoRAS}
             alt="ras"
@@ -35,16 +35,16 @@ function LogoTree() {
         </Col>
       </Row>
       <Row className="justify-content-center mt-md-5">
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center mt-5">
           <Logoball logo={LogoPES} alt="pes" animationType="rotateInUpLeft" />
         </Col>
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center mt-5">
           <Logoball logo={LogoWIE} alt="wie" animationType="slideInUp" />
         </Col>
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center mt-5">
           <Logoball logo={LogoAESS} alt="aess" animationType="slideInUp" />
         </Col>
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center mt-5">
           <Logoball logo={LogoKOK} alt="kok" animationType="rotateInUpRight" />
         </Col>
       </Row>
