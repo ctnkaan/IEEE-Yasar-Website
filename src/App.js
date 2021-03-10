@@ -2,12 +2,18 @@ import React, { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./routes/Home.js";
+import SocietyDetail from "./routes/SocietyDetail.js";
 import Navbar from "./components/Static/NavbarComp";
 
 function App() {
   return (
     <Router>
       <Switch>
+        <RoutedComponent
+          header={Navbar}
+          path="/society/:slug"
+          component={SocietyDetail}
+        />
         <RoutedComponent header={Navbar} path="/" component={Home} />
       </Switch>
     </Router>
