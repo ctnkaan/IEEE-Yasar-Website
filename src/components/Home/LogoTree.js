@@ -2,7 +2,7 @@ import { React, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { WOW } from "wowjs";
 
-import Logoball from "./LogoBall";
+import LogoBall from "./LogoBall";
 import Logo from "../../resources/ieee_yasar.jpg";
 import LogoCS from "../../resources/committees/CS.png";
 import LogoRAS from "../../resources/committees/RAS.png";
@@ -20,14 +20,14 @@ function LogoTree() {
   return (
     <Container fluid>
       <Row className="justify-content-center mt-md-5 mt-5">
-        <Logoball logo={Logo} alt="ieee yasar" animationType="fadeInDown" />
+        <LogoBall logo={Logo} alt="ieee yasar" animationType="fadeInDown" />
       </Row>
       <Row className="justify-content-center mt-md-5">
         <Col className="d-flex justify-content-center mt-5">
-          <Logoball logo={LogoCS} alt="cs" animationType="rotateInDownLeft" />
+          <LogoBall logo={LogoCS} alt="cs" animationType="rotateInDownLeft" />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
-          <Logoball
+          <LogoBall
             logo={LogoRAS}
             alt="ras"
             animationType="rotateInDownRight"
@@ -36,16 +36,16 @@ function LogoTree() {
       </Row>
       <Row className="justify-content-center mt-md-5">
         <Col className="d-flex justify-content-center mt-5">
-          <Logoball logo={LogoPES} alt="pes" animationType="rotateInUpLeft" />
+          <LogoBall logo={LogoPES} alt="pes" animationType="rotateInUpLeft" />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
-          <Logoball logo={LogoWIE} alt="wie" animationType="slideInUp" />
+          <LogoBall logo={LogoWIE} alt="wie" animationType="slideInUp" />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
-          <Logoball logo={LogoAESS} alt="aess" animationType="slideInUp" />
+          <LogoBall logo={LogoAESS} alt="aess" animationType="slideInUp" />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
-          <Logoball logo={LogoKOK} alt="kok" animationType="rotateInUpRight" />
+          <LogoBall logo={LogoKOK} alt="kok" animationType="rotateInUpRight" />
         </Col>
       </Row>
     </Container>
