@@ -5,7 +5,7 @@ function LogoBall({ logo, alt, animationType }) {
   return (
     <div
       className={`wow animate__animated animate__${animationType}`}
-      data-wow-delay="0.3s"
+      data-wow-delay="0.4s"
     >
       <div className={classes.logoBorderAnim}>
         <img

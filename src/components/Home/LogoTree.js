@@ -19,6 +19,7 @@ function LogoTree() {
 
   return (
     <Container fluid>
+    <hr></hr>
       <Row className="justify-content-center mt-md-5 mt-5">
         <LogoBall logo={Logo} alt="ieee yasar" animationType="fadeInDown" />
       </Row>
@@ -48,6 +49,8 @@ function LogoTree() {
           <LogoBall logo={LogoKOK} alt="kok" animationType="rotateInUpRight" />
         </Col>
       </Row>
+
+    <hr></hr>
     </Container>
   );
 }

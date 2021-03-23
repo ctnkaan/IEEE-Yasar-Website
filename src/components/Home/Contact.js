@@ -26,7 +26,7 @@ function Contact() {
       </div>
       <button class="btn">MESAJI GÖNDER</button>
     </div>
-  );
-}
+    );
+  }
 
-export default Contact;
+export default Contact

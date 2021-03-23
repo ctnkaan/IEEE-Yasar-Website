@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Contact from "./Contact";
 import JPG from "../../resources/contact.jpg";
+
 function ContactSection() {
   return (
     <section>

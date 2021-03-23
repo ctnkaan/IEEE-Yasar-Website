@@ -4,9 +4,10 @@ import "../../styles/FeaturesSection.css";
 function Features() {
   return (
     <section id="features" className="pt-5">
-      <div className="container-fluid">
+      <div className="container-fluid features-margin">
         <div className="row mt-5 mr-10">
-          <div className="col-md-4 text-center  border-right pt-4">
+
+          <div className="col-md-4 text-center border-right pt-4">
             <div className="feature ">
               <div className="led">
                 <i
@@ -47,6 +48,7 @@ function Features() {
             </div>
           </div>
 
+
           <div className="col-md-4 text-center">
             <div className="feature">
               <div className="led">
@@ -64,6 +66,7 @@ function Features() {
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </section>
