@@ -3,7 +3,7 @@ import "../../styles/Contact.css";
 
 function Contact() {
   return (
-    <div class="contact-form">
+    <div class="contact-form" id="contact">
       <h1 class="baslik border-bottom pb-5">Contact Us</h1>
       <div class="txtb">
         <input
