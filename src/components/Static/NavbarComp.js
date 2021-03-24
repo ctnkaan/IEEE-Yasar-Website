@@ -40,23 +40,29 @@ function NavbarComp() {
                 Kardeş Öğrenci Kolları Projesi
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features">Hakkımızda</Nav.Link>
-            <Nav.Link>Etkinliklerimiz</Nav.Link>
-            <Nav.Link href="#contact">İletişim</Nav.Link>
+            <Nav.Link as={NavLink} to="/about-us">
+              Hakkımızda
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/events">
+              Etkinliklerimiz
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/contact-us">
+              İletişim
+            </Nav.Link>
             {/* Iconlar mobile geçildiği */}
             <Nav.Link
               href="https://www.linkedin.com/company/ieee-ya%C5%9Far-%C3%B6%C4%9Frenci-kolu/"
               target="_blank"
               rel="norefferer"
             >
-              <i class="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i>
             </Nav.Link>
             <Nav.Link
               href="https://www.instagram.com/ieeeyasarsb/"
               target="_blank"
               rel="norefferer"
             >
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
