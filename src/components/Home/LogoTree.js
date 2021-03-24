@@ -19,38 +19,64 @@ function LogoTree() {
 
   return (
     <Container fluid>
-    <hr></hr>
+      <hr></hr>
       <Row className="justify-content-center mt-md-5 mt-5">
-        <LogoBall logo={Logo} alt="ieee yasar" animationType="fadeInDown" />
+        <LogoBall logo={Logo} alt="ieee-yasar" animationType="fadeInDown" />
       </Row>
       <Row className="justify-content-center mt-md-5">
         <Col className="d-flex justify-content-center mt-5">
-          <LogoBall logo={LogoCS} alt="cs" animationType="rotateInDownLeft" />
+          <LogoBall
+            logo={LogoCS}
+            alt="cs"
+            toSlug="cs"
+            animationType="rotateInDownLeft"
+          />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
           <LogoBall
             logo={LogoRAS}
             alt="ras"
+            toSlug="ras"
             animationType="rotateInDownRight"
           />
         </Col>
       </Row>
       <Row className="justify-content-center mt-md-5">
         <Col className="d-flex justify-content-center mt-5">
-          <LogoBall logo={LogoPES} alt="pes" animationType="rotateInUpLeft" />
+          <LogoBall
+            logo={LogoPES}
+            alt="pes"
+            toSlug="pes"
+            animationType="rotateInUpLeft"
+          />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
-          <LogoBall logo={LogoWIE} alt="wie" animationType="slideInUp" />
+          <LogoBall
+            logo={LogoWIE}
+            alt="wie"
+            toSlug="wie"
+            animationType="slideInUp"
+          />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
-          <LogoBall logo={LogoAESS} alt="aess" animationType="slideInUp" />
+          <LogoBall
+            logo={LogoAESS}
+            alt="aess"
+            toSlug="aess"
+            animationType="slideInUp"
+          />
         </Col>
         <Col className="d-flex justify-content-center mt-5">
-          <LogoBall logo={LogoKOK} alt="kok" animationType="rotateInUpRight" />
+          <LogoBall
+            logo={LogoKOK}
+            alt="kok"
+            toSlug="kok"
+            animationType="rotateInUpRight"
+          />
         </Col>
       </Row>
 
-    <hr></hr>
+      <hr></hr>
     </Container>
   );
 }

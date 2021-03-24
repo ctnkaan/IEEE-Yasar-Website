@@ -1,11 +1,13 @@
 import React from "react";
 import classes from "../../styles/CommitteesSection.module.css";
-
-function LogoBall({ logo, alt, animationType }) {
+import { Link } from "react-router-dom";
+function LogoBall({ logo, alt, toSlug, animationType }) {
   return (
-    <div
+    <Link
       className={`wow animate__animated animate__${animationType}`}
-      data-wow-delay="0.4s"
+      data-wow-delay="0.2s"
+      to={toSlug && `/society/${toSlug}`}
+      style={{ color: "inherit" }}
     >
       <div className={classes.logoBorderAnim}>
         <img
@@ -16,7 +18,7 @@ function LogoBall({ logo, alt, animationType }) {
           alt={alt}
         />
       </div>
-    </div>
+    </Link>
   );
 }
 
