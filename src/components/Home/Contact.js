@@ -1,11 +1,11 @@
 import React from "react";
-import "../../styles/Contact.css";
+import cls from "../../styles/Contact.module.css";
 
 function Contact() {
   return (
-    <div class="contact-form" id="contact">
-      <h1 class="baslik border-bottom pb-5">İletişim</h1>
-      <div class="txtb">
+    <div className={cls.contactForm} id="contact">
+      <h1 className={`${cls.baslik} border-bottom pb-5`}>Contact Us</h1>
+      <div className={cls.txtb}>
         <input
           type="text"
           name=""
@@ -13,7 +13,7 @@ function Contact() {
           placeholder="ADINIZ VE SOYADINIZ"
         ></input>
       </div>
-      <div class="txtb">
+      <div className={cls.txtb}>
         <input
           type="email"
           name=""
@@ -21,12 +21,12 @@ function Contact() {
           placeholder="E-POSTA ADRESİNİZ"
         ></input>
       </div>
-      <div class="txtb">
+      <div className={cls.txtb}>
         <textarea placeholder="MESAJINIZIN KONUSU"></textarea>
       </div>
-      <button class="btn">MESAJI GÖNDER</button>
+      <button className={cls.mybtn}>MESAJI GÖNDER</button>
     </div>
-    );
-  }
+  );
+}
 
-export default Contact
+export default Contact;

@@ -5,15 +5,16 @@ import JPG from "../../resources/contact.jpg";
 
 function ContactSection() {
   return (
-    <section style={{marginTop: "10%"}}>
+    <section style={{ marginTop: "10%" }}>
       <Container fluid>
         <Row
           style={{
             height: "100vh",
             display: "flex",
+            position: "relative",
             justifyContent: "center",
             alignItems: "center",
-            backgroundImage: "url("+JPG+")",
+            backgroundImage: "url(" + JPG + ")",
             backgroundSize: "cover",
           }}
         >
