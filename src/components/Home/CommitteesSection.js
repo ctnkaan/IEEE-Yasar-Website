@@ -6,7 +6,7 @@ function CommitteesSection() {
   return (
     <section>
       <Container fluid>
-        <Row style={{ height: "100vh" }}>
+        <Row>
           <LogoTree />
         </Row>
       </Container>
