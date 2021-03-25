@@ -4,7 +4,7 @@ import cls from "../../styles/Contact.module.css";
 function Contact() {
   return (
     <div className={cls.contactForm} id="contact">
-      <h1 className={`${cls.baslik} border-bottom pb-5`}>Contact Us</h1>
+      <h1 className={`${cls.baslik} border-bottom pb-5`}>İletişim</h1>
       <div className={cls.txtb}>
         <input
           type="text"

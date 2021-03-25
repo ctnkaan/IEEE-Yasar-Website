@@ -7,7 +7,7 @@ import getSocietyData from "../components/SocietyDetail/getSocietyData";
 
 function SocietyDetail() {
   const { slug } = useParams();
-  const { logo, title, admin, detail, isRedirect } = getSocietyData(slug);
+  const { logo, title, detail, isRedirect } = getSocietyData(slug);
   return (
     <div style={{ marginTop: "90px" }}>
       {isRedirect && <Redirect to="/" />}
@@ -17,9 +17,8 @@ function SocietyDetail() {
         </Row>
         <Row className="justify-content-center mt-md-5 mt-5">
           <Jumbotron className="bg-white">
-            <h2>
-              {title} - {admin}
-            </h2>
+            <h1>{title}</h1>
+
             <h5>{detail}</h5>
           </Jumbotron>
         </Row>
