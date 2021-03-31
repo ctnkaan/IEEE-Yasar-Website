@@ -15,16 +15,13 @@ function Features() {
                   aria-hidden="true"
                 ></i>
               </div>
-              <h3 className="mt-3">HERKES İÇİN IEEE</h3>
+              <h3 className="mt-3">IEEE NEDIR</h3>
               <p>
                 {" "}
-                IEEE, mühendislik, bilgi işlem ve teknoloji profesyonelleri için
-                dünyanın en güvenilir kaynağıdır. Dernek, küresel bir topluluk
-                olarak insanlığın yararına teknolojik yeniliği desteklemektedir.
-                Üye iş birliği ve derneğin çeşitli yayın, konferans, eğitim
-                kaynakları ve standart geliştirme seçimi sayesinde IEEE gelecek
-                nesillere ilham verirken yenilik ve teknolojik mükemmelliği
-                geliştirir.
+                The Institute of Electrical and Electronics Engineers ya da kısaca IEEE,
+                elektrik, elektronik, bilgisayar, otomasyon, telekomünikasyon ve diğer birçok alanda, mühendislik teori ve uygulamalarının gelişimi için çalışan, 
+                kâr amacı olmayan, dünyanın önde gelen teknik organizasyonudur.
+                1884 yılında Alexander Graham Bell ve Thomas Edison gibi dönemin büyük bilim adamlarınca temelleri atılmıştır.
               </p>
             </div>
           </div>
@@ -38,12 +35,9 @@ function Features() {
 
               <p>
                 {" "}
-                IEEE Yaşar Öğrenci Kolu, 2007 yılında Elektromekanik
-                Topluluğu’nun feshedilmesiyle kurulmuştur. O yıldan bu yana
-                Yaşar Üniversitesi içerisinde farklı isim ve niteliklerde
-                kariyer günü etkinlikleri, sayısız teknik eğitim, sektöründe
-                öncü firmalara teknik geziler ve gelişmiş teknolojileri içeren
-                birçok teknik projeye imzasını atmıştır.
+                IEEE Yaşar Öğrenci Kolu, 2009 yılında kurulmuştur.
+                IEEE Yaşar olarak bünyemizde 6 tane (RAS, PES, WIE, AESS, CS) topluluğumuz (society) mevcuttur.
+                Kolumuzdaki üyelerimizin kişisel gelişimleri için bir çok etkinlik düzenlenmektedir.
               </p>
             </div>
           </div>
