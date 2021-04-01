@@ -9,7 +9,7 @@ export default function getEventDatas() {
         title: "Git ve Github 101",
         description: `Çetin Kaan Taşkıngenç tarafından verilen eğitici ve bir
          o kadar önemli olan bu etkinliğimizde geforce now türkiyeye geldi kekw`,
-        image: git, //must be imported above
+        image: git, //must be imported at top
         date: "07/03/2021",
       },
       {
