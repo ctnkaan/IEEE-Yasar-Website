@@ -34,7 +34,7 @@ function AboutUs() {
               <Row className="mt-2" style={{ justifyContent: "center" }}>
                 {person.links.linkedIn && (
                   <a
-                    href="https://www.instagram.com/ieeeyasarsb/"
+                    href={person.links.linkedIn}
                     target="_blank"
                     rel="norefferer"
                   >
@@ -46,7 +46,7 @@ function AboutUs() {
                 )}
                 {person.links.instagram && (
                   <a
-                    href="https://www.instagram.com/ieeeyasarsb/"
+                    href={person.links.instagram}
                     target="_blank"
                     rel="norefferer"
                   >
