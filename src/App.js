@@ -6,6 +6,7 @@ import AboutUs from "./routes/AboutUs.js";
 import Events from "./routes/Events.js";
 import SocietyDetail from "./routes/SocietyDetail.js";
 import Navbar from "./components/Static/NavbarComp";
+import "./styles/index.css";
 
 function App() {
   return (
