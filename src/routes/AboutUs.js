@@ -2,10 +2,10 @@ import React from "react";
 import ReactRoundedImage from "react-rounded-image";
 import getAboutUsDatas from "../resources/getAboutUsDatas";
 import { Container, Row, Col } from "react-bootstrap";
-
+import "../styles/aboutus.css";
 function AboutUs() {
   const people2d = getAboutUsDatas();
-  
+
   return (
     <Container style={{ marginTop: "90px" }}>
       {people2d.map((people) => (
@@ -25,7 +25,7 @@ function AboutUs() {
                 roundedColor="#343a40"
                 imageWidth="220"
                 imageHeight="220"
-                roundedSize="13"
+                roundedSize="8"
                 hoverColor="orange"
                 image={person.img}
               />
