@@ -36,7 +36,7 @@ function AboutUs() {
                   <a
                     href={person.links.linkedIn}
                     target="_blank"
-                    rel="norefferer"
+                    rel="noreferrer"
                   >
                     <i
                       className="fab fa-linkedin fa-lg"
@@ -48,7 +48,7 @@ function AboutUs() {
                   <a
                     href={person.links.instagram}
                     target="_blank"
-                    rel="norefferer"
+                    rel="noreferrer"
                   >
                     <i
                       className="fab fa-instagram fa-lg"

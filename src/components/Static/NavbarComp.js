@@ -51,14 +51,14 @@ function NavbarComp() {
             <Nav.Link
               href="https://www.linkedin.com/company/ieee-ya%C5%9Far-%C3%B6%C4%9Frenci-kolu/"
               target="_blank"
-              rel="norefferer"
+              rel="noreferrer"
             >
               <i className="fab fa-linkedin"></i>
             </Nav.Link>
             <Nav.Link
               href="https://www.instagram.com/ieeeyasarsb/"
               target="_blank"
-              rel="norefferer"
+              rel="noreferrer"
             >
               <i className="fab fa-instagram"></i>
             </Nav.Link>
