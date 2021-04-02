@@ -6,6 +6,7 @@ import AboutUs from "./routes/AboutUs.js";
 import Events from "./routes/Events.js";
 import SocietyDetail from "./routes/SocietyDetail.js";
 import Navbar from "./components/Static/NavbarComp";
+import Footer from "./components/Static/Footer";
 import "./styles/index.css";
 
 function App() {
@@ -17,9 +18,24 @@ function App() {
           path="/society/:slug"
           component={SocietyDetail}
         />
-        <RoutedComponent header={Navbar} path="/about-us" component={AboutUs} />
-        <RoutedComponent header={Navbar} path="/events" component={Events} />
-        <RoutedComponent header={Navbar} path="/" component={Home} />
+        <RoutedComponent
+          header={Navbar}
+          footer={Footer}
+          path="/about-us"
+          component={AboutUs}
+        />
+        <RoutedComponent
+          header={Navbar}
+          footer={Footer}
+          path="/events"
+          component={Events}
+        />
+        <RoutedComponent
+          header={Navbar}
+          footer={Footer}
+          path="/"
+          component={Home}
+        />
       </Switch>
     </Router>
   );
