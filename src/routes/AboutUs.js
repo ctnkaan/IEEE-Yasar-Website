@@ -2,8 +2,10 @@ import React from "react";
 import ReactRoundedImage from "react-rounded-image";
 import getAboutUsDatas from "../resources/getAboutUsDatas";
 import { Container, Row, Col } from "react-bootstrap";
+
 function AboutUs() {
   const people2d = getAboutUsDatas();
+  
   return (
     <Container style={{ marginTop: "90px" }}>
       {people2d.map((people) => (
