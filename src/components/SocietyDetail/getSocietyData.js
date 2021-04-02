@@ -1,4 +1,4 @@
-import ieee from "../../resources/ieee_yasar.jpg";
+//import ieee from "../../resources/ieee_yasar.jpg";
 import aess from "../../resources/committees/AESS.jpg";
 import cs from "../../resources/committees/CS.png";
 import kok from "../../resources/committees/KOK.jpg";

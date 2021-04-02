@@ -11,7 +11,7 @@ function Events() {
             <Card>
               <Card.Img variant="top" src={event.image} />
               <Card.Body>
-                <Card.Title>{event.title}</Card.Title>
+                <Card.Title><a href={event.link}>{event.title}</a></Card.Title>
                 <Card.Text>{event.description}</Card.Text>
               </Card.Body>
               <Card.Footer>
