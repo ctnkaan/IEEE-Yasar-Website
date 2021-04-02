@@ -17,7 +17,7 @@ function Features() {
             <div className="feature wow animate__animated animate__lightSpeedInLeft">
               <div className="led">
                 <i
-                  className="fa fa-users fa-3x rounded-circle"
+                  className="fas fa-atom fa-3x rounded-circle"
                   aria-hidden="true"
                 ></i>
               </div>
@@ -47,10 +47,10 @@ function Features() {
 
               <p>
                 {" "}
-                IEEE Yaşar Öğrenci Kolu, 2009 yılında kurulmuştur. IEEE Yaşar
-                olarak bünyemizde 6 tane (RAS, PES, WIE, AESS, CS) topluluğumuz
-                (society) mevcuttur. Kolumuzdaki üyelerimizin kişisel
-                gelişimleri için bir çok etkinlik düzenlenmektedir.
+                IEEE Yaşar Üniversitesi Öğrenci Kolu olrak üyelerimizin teknik, akademik ve sosyal
+                alanda gelişmesini sağlamak için çalışmalarda bulunuyor. Düzenlediğimiz sosyal
+                etkinlikler ile kolumuzdaki diğer üyeler ile kaynaşabilir, düzenlediğimiz eğitimler
+                ile de akademik ilerideki iş hayatlarında öğrencilerin bir adam önde başlamasını sağlar
               </p>
             </div>
           </div>
@@ -58,17 +58,15 @@ function Features() {
           <div className="col-md-4 text-center">
             <div className="feature wow animate__animated animate__lightSpeedInRight">
               <div className="led">
-                <i className="fa fa-book fa-3x"></i>
+                <i className="fas fa-user-cog fa-3x"></i>
               </div>
-              <h3 className="mt-3">HER ŞEY DERS DEĞİL</h3>
+              <h3 className="mt-3">KOMITELER</h3>
               <p>
                 {" "}
-                IEEE Yaşar olarak biz, üyelerimiz için okul içerisinde öğrenilen
-                teorik dersleri pratiğe dönüştürmelerine yardımcı olmayı, sosyal
-                yaşantılarına olumlu katkıda bulunmayı ve farklı mühendislik
-                dallarını bünyesinde barındırarak diğer bölümler ile fikir
-                alışverişinde bulunmalarını hedefliyoruz. Geleceği şekillendiren
-                mühendisler olabilmek için haydi sen de IEEE Yaşar'a katıl!
+                IEEE Yaşar Öğrenci Kolu, 2009 yılında kurulmuştur. IEEE Yaşar
+                olarak bünyemizde 6 tane (RAS, PES, WIE, AESS, CS) topluluğumuz
+                (society) mevcuttur. Kolumuzdaki üyelerimizin kişisel
+                gelişimleri için bir çok etkinlik düzenlenmektedir.
               </p>
             </div>
           </div>
