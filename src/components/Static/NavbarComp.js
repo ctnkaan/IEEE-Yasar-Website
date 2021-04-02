@@ -46,9 +46,7 @@ function NavbarComp() {
             <Nav.Link as={NavLink} to="/events">
               Etkinliklerimiz
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact-us">
-              İletişim
-            </Nav.Link>
+            <Nav.Link href="#contact-us">İletişim</Nav.Link>
             {/* Iconlar mobile geçildiği */}
             <Nav.Link
               href="https://www.linkedin.com/company/ieee-ya%C5%9Far-%C3%B6%C4%9Frenci-kolu/"

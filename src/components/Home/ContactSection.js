@@ -5,7 +5,7 @@ import JPG from "../../resources/contact.jpg";
 
 function ContactSection() {
   return (
-    <section style={{ marginTop: "10%" }}>
+    <section id="contact-us" style={{ marginTop: "10%" }}>
       <Container fluid>
         <Row
           style={{
