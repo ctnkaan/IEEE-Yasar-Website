@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderButton from './HeaderButton'
 import { header } from './Profile'
-import '../styles/Header.css'
+import '../../styles/Header.css'
 const Header = () => {
 
     return (
